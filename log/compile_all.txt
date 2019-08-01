@@ -1,0 +1,6 @@
+javac -encoding iso-8859-1 -cp java\solution\bin\common;java/lib/* -d java\submissions\asgn1_(5)\bin java\submissions\asgn1_(5)\src\asgn1SoccerCompetition\SportsTeamForm.java java\submissions\asgn1_(5)\src\asgn1SoccerCompetition\SoccerTeam.java java\submissions\asgn1_(5)\src\asgn1SoccerCompetition\SoccerLeague.java java\submissions\asgn1_(5)\src\asgn1SoccerCompetition\SoccerCompetition.java java\submissions\asgn1_(5)\src\asgn1Tests\SportsTeamFormTests.java java\submissions\asgn1_(5)\src\asgn1Tests\SoccerTeamTests.java java\submissions\asgn1_(5)\src\asgn1Tests\SoccerLeagueTests.java java\submissions\asgn1_(5)\src\asgn1Tests\SoccerCompetitionTests.java java\submissions\asgn1_(5)\src\asgn1Tests\*.java
+
+
+
+-----------
+

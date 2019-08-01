@@ -1,0 +1,8 @@
+java -cp bin\tests;..\..\solution\bin\implementation;..\..\solution\bin\common;..\..\lib\* org.junit.runner.JUnitCore asgn1Tests.SoccerTeamTests
+
+JUnit version 4.12
+.........
+Time: 0.016
+
+OK (9 tests)
+

@@ -1,0 +1,8 @@
+java -cp ..\submissions\asgn1_(5)\bin\implementation;bin\tests;bin\common;..\lib\* org.junit.runner.JUnitCore asgn1Tests.SportsTeamFormTests
+
+JUnit version 4.12
+............
+Time: 0
+
+OK (12 tests)
+

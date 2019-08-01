@@ -1,0 +1,681 @@
+{
+  "submissionId": "asgn1_(5)",
+  "stages": {
+    "extracted": true,
+    "compiled": true,
+    "executed": true,
+    "complete": false
+  },
+  "raw": {
+    "studentImplementation_SolutionTests": {
+      "asgn1Tests.SportsTeamFormTests": {
+        "passed": 12,
+        "total": 12,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.SportsTeamFormTests.txt"
+      },
+      "asgn1Tests.SoccerTeamTests": {
+        "passed": 33,
+        "total": 33,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.SoccerTeamTests.txt"
+      },
+      "asgn1Tests.SoccerLeagueTests": {
+        "passed": 30,
+        "total": 32,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.SoccerLeagueTests.txt"
+      },
+      "asgn1Tests.SoccerCompetitionTests": {
+        "passed": 5,
+        "total": 13,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.SoccerCompetitionTests.txt"
+      }
+    },
+    "studentTests_SolutionImplementation": {
+      "asgn1Tests.SportsTeamFormTests": {
+        "passed": 3,
+        "total": 3,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.SportsTeamFormTests.txt"
+      },
+      "asgn1Tests.SoccerTeamTests": {
+        "passed": 9,
+        "total": 9,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.SoccerTeamTests.txt"
+      },
+      "asgn1Tests.SoccerLeagueTests": {
+        "passed": 6,
+        "total": 14,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.SoccerLeagueTests.txt"
+      },
+      "asgn1Tests.SoccerCompetitionTests": {
+        "passed": 1,
+        "total": 2,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.SoccerCompetitionTests.txt"
+      }
+    },
+    "studentTests_BrokenImplementations": {
+      "SportsTeamForm": {
+        "DashAddedBack": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 2,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_DashAddedBack_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "EmptyCharactersNotAdded": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 2,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_EmptyCharactersNotAdded_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "FormHoldsMoreThan5Games": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 2,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_FormHoldsMoreThan5Games_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "FormReturnsInvertedString": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 1,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_FormReturnsInvertedString_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "ResetFormDoesntWork": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 1,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_ResetFormDoesntWork_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "ResultNotAdded": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 0,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_ResultNotAdded_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        },
+        "WrongResultAddedToForm": {
+          "asgn1Tests.SportsTeamFormTests": {
+            "passed": 1,
+            "total": 3,
+            "log": "studentTests_BrokenImplementations_SportsTeamForm_WrongResultAddedToForm_asgn1Tests.SportsTeamFormTests.txt"
+          }
+        }
+      },
+      "SoccerTeam": {
+        "AllowLotsGoalsAgainst": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_AllowLotsGoalsAgainst_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "AllowLotsGoalsFor": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_AllowLotsGoalsFor_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "AllowNegGoalsFor": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_AllowNegGoalsFor_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "AllowsNegGoalsAgainst": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_AllowsNegGoalsAgainst_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToIgnoreAlpha": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToIgnoreAlpha_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToIgnoreDiff": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToIgnoreDiff_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToIgnorePoints": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToIgnorePoints_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToReverseAlpha": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToReverseAlpha_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToReverseDiff": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToReverseDiff_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompareToReversesPts": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompareToReversesPts_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompPtsWrongDraw": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompPtsWrongDraw_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompPtsWrongLoss": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 6,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompPtsWrongLoss_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "CompPtsWrongWin": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_CompPtsWrongWin_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "EmptyNickname": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_EmptyNickname_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "EmptyOfficialName": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_EmptyOfficialName_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "FormNotAddedDraw": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_FormNotAddedDraw_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "FormNotAddedLoss": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 6,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_FormNotAddedLoss_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "FormNotAddedWin": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 6,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_FormNotAddedWin_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "GoalDiffIncorrect": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_GoalDiffIncorrect_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "GoalsConcededNotUpdated": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_GoalsConcededNotUpdated_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "GoalsScoredNotUpdated": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_GoalsScoredNotUpdated_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "MatchesDrawnNotUpdated": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_MatchesDrawnNotUpdated_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "MatchesLostNotUpdated": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_MatchesLostNotUpdated_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "MatchesWonNotUpdated": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_MatchesWonNotUpdated_asgn1Tests.SoccerTeamTests.txt"
+          }
+        },
+        "ResetStatsDoesntWork": {
+          "asgn1Tests.SoccerTeamTests": {
+            "passed": 6,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_SoccerTeam_ResetStatsDoesntWork_asgn1Tests.SoccerTeamTests.txt"
+          }
+        }
+      },
+      "SoccerLeague": {
+        "AwayMatchNotPlayed": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_AwayMatchNotPlayed_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "EndAfterEnd": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_EndAfterEnd_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetBottomTeamIsTop": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 4,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetBottomTeamIsTop_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetBottomTeamNotRequired": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetBottomTeamNotRequired_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetBottomTeamZero": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetBottomTeamZero_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetTopTeamIsBottom": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 4,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetTopTeamIsBottom_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetTopTeamNotRequiredNum": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetTopTeamNotRequiredNum_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "GetTopTeamZero": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_GetTopTeamZero_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "HomeMatchNotPlayed": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_HomeMatchNotPlayed_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "MatchBeforeSeasonStarts": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_MatchBeforeSeasonStarts_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "MoreTeamsThanLimit": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_MoreTeamsThanLimit_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "NoResetAtStart": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_NoResetAtStart_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "OffseasonNotFalseAtStart": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 4,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_OffseasonNotFalseAtStart_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "OffseasonNotTrueAtEnd": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 5,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_OffseasonNotTrueAtEnd_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "RemoveBeforeSeasonEnd": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_RemoveBeforeSeasonEnd_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "RemoveTeamNotInleague": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_RemoveTeamNotInleague_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "SortNotWorking": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_SortNotWorking_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "StartAfterStart": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_StartAfterStart_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "StartWhenRequiredNotMet": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 5,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_StartWhenRequiredNotMet_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamIsNotThereSayIs": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 2,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamIsNotThereSayIs_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamIsThereSaysNot": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 4,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamIsThereSaysNot_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamNotAdded": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 2,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamNotAdded_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamNotInLeague": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamNotInLeague_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamNotRemoved": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 5,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamNotRemoved_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamRegisteredAfterStart": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamRegisteredAfterStart_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TeamRegisteredTwice": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TeamRegisteredTwice_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "TwoTeamsPlaySameName": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 6,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_TwoTeamsPlaySameName_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        },
+        "WrongTeamReturnedByName": {
+          "asgn1Tests.SoccerLeagueTests": {
+            "passed": 4,
+            "total": 14,
+            "log": "studentTests_BrokenImplementations_SoccerLeague_WrongTeamReturnedByName_asgn1Tests.SoccerLeagueTests.txt"
+          }
+        }
+      },
+      "SoccerCompetition": {
+        "GetTeamGtrReg": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_GetTeamGtrReg_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "GetTeamLessOne": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_GetTeamLessOne_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "GetWrongLeague": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 0,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_GetWrongLeague_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "LeagueDoesntEnd": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 0,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_LeagueDoesntEnd_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "LeaguesDoesntStart": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_LeaguesDoesntStart_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "NoPromoteReg": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_NoPromoteReg_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "TeamPromThreeOne": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_TeamPromThreeOne_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        },
+        "TeamRegOneThree": {
+          "asgn1Tests.SoccerCompetitionTests": {
+            "passed": 1,
+            "total": 2,
+            "log": "studentTests_BrokenImplementations_SoccerCompetition_TeamRegOneThree_asgn1Tests.SoccerCompetitionTests.txt"
+          }
+        }
+      }
+    }
+  },
+  "calculated": {
+    "implementation": {
+      "asgn1Tests.SportsTeamFormTests": {
+        "mark": 2.5,
+        "total": 2.5
+      },
+      "asgn1Tests.SoccerTeamTests": {
+        "mark": 2.5,
+        "total": 2.5
+      },
+      "asgn1Tests.SoccerLeagueTests": {
+        "mark": 2.34375,
+        "total": 2.5
+      },
+      "asgn1Tests.SoccerCompetitionTests": {
+        "mark": 0.9615384615384616,
+        "total": 2.5
+      }
+    },
+    "tests": {
+      "SportsTeamForm": {
+        "mark": 2.5,
+        "total": 2.5
+      },
+      "SoccerTeam": {
+        "mark": 1.6,
+        "total": 2.5
+      },
+      "SoccerLeague": {
+        "mark": 0.8928571428571429,
+        "total": 2.5
+      },
+      "SoccerCompetition": {
+        "mark": 0.625,
+        "total": 2.5
+      }
+    },
+    "detected": {
+      "SportsTeamForm": {
+        "DashAddedBack": true,
+        "EmptyCharactersNotAdded": true,
+        "FormHoldsMoreThan5Games": true,
+        "FormReturnsInvertedString": true,
+        "ResetFormDoesntWork": true,
+        "ResultNotAdded": true,
+        "WrongResultAddedToForm": true
+      },
+      "SoccerTeam": {
+        "AllowLotsGoalsAgainst": false,
+        "AllowLotsGoalsFor": false,
+        "AllowNegGoalsFor": false,
+        "AllowsNegGoalsAgainst": false,
+        "CompareToIgnoreAlpha": false,
+        "CompareToIgnoreDiff": true,
+        "CompareToIgnorePoints": false,
+        "CompareToReverseAlpha": false,
+        "CompareToReverseDiff": true,
+        "CompareToReversesPts": true,
+        "CompPtsWrongDraw": true,
+        "CompPtsWrongLoss": true,
+        "CompPtsWrongWin": true,
+        "EmptyNickname": false,
+        "EmptyOfficialName": false,
+        "FormNotAddedDraw": true,
+        "FormNotAddedLoss": true,
+        "FormNotAddedWin": true,
+        "GoalDiffIncorrect": true,
+        "GoalsConcededNotUpdated": true,
+        "GoalsScoredNotUpdated": true,
+        "MatchesDrawnNotUpdated": true,
+        "MatchesLostNotUpdated": true,
+        "MatchesWonNotUpdated": true,
+        "ResetStatsDoesntWork": true
+      },
+      "SoccerLeague": {
+        "AwayMatchNotPlayed": false,
+        "EndAfterEnd": false,
+        "GetBottomTeamIsTop": true,
+        "GetBottomTeamNotRequired": false,
+        "GetBottomTeamZero": false,
+        "GetTopTeamIsBottom": true,
+        "GetTopTeamNotRequiredNum": false,
+        "GetTopTeamZero": false,
+        "HomeMatchNotPlayed": false,
+        "MatchBeforeSeasonStarts": false,
+        "MoreTeamsThanLimit": false,
+        "NoResetAtStart": false,
+        "OffseasonNotFalseAtStart": true,
+        "OffseasonNotTrueAtEnd": true,
+        "RemoveBeforeSeasonEnd": false,
+        "RemoveTeamNotInleague": false,
+        "SortNotWorking": false,
+        "StartAfterStart": false,
+        "StartWhenRequiredNotMet": true,
+        "TeamIsNotThereSayIs": true,
+        "TeamIsThereSaysNot": true,
+        "TeamNotAdded": true,
+        "TeamNotInLeague": false,
+        "TeamNotRemoved": true,
+        "TeamRegisteredAfterStart": false,
+        "TeamRegisteredTwice": false,
+        "TwoTeamsPlaySameName": false,
+        "WrongTeamReturnedByName": true
+      },
+      "SoccerCompetition": {
+        "GetTeamGtrReg": false,
+        "GetTeamLessOne": false,
+        "GetWrongLeague": true,
+        "LeagueDoesntEnd": true,
+        "LeaguesDoesntStart": false,
+        "NoPromoteReg": false,
+        "TeamPromThreeOne": false,
+        "TeamRegOneThree": false
+      }
+    }
+  },
+  "marks": {
+    "implementation": {
+      "criteria": "Model Implementation",
+      "mark": 8.305,
+      "total": 10
+    },
+    "tests": {
+      "criteria": "Unit Tests",
+      "mark": 5.618,
+      "total": 10
+    },
+    "modelcq": {
+      "mark": 4.5,
+      "total": 5,
+      "criteria": "Model Code Quality"
+    }
+  },
+  "comments": "More comments in body of methods would be good.",
+  "total": {
+    "mark": 18.423000000000002,
+    "total": 25
+  },
+  "pkg": null,
+  "package": "C:\\Tutoring\\cab302\\cab302-sam-2017-soccer-eef70a5010ac\\java\\completed\\asgn1_(5).zip"
+}
